@@ -35,7 +35,7 @@ class Main {
 
 // } Driver Code Ends
 
-
+ 
 //User function Template for Java
 
 
@@ -49,6 +49,7 @@ class Solution
          if(N==0)  return ;
            printNos(N-1);
            System.out.print(N+" ");
+           return;
          
     }
 }
